@@ -22,7 +22,6 @@ class MathTabScreen extends StatelessWidget {
                 child: Row(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    // 🖼️ 좌측 이미지
                     Expanded(
                       flex: 1,
                       child: ClipRRect(
@@ -34,7 +33,6 @@ class MathTabScreen extends StatelessWidget {
                       ),
                     ),
                     const SizedBox(width: 40),
-                    // 📚 우측 수학 정리
                     Expanded(
                       flex: 2,
                       child: SingleChildScrollView(
@@ -115,7 +113,6 @@ class MathTabScreen extends StatelessWidget {
   }
 }
 
-// ➗ 수학 섹션 위젯
 class MathSection extends StatelessWidget {
   final String title;
   final String description;

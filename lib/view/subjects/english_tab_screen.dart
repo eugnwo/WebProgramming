@@ -22,7 +22,6 @@ class EnglishTabScreen extends StatelessWidget {
                 child: Row(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    // 🖼️ 좌측 이미지
                     Expanded(
                       flex: 1,
                       child: ClipRRect(
@@ -34,7 +33,6 @@ class EnglishTabScreen extends StatelessWidget {
                       ),
                     ),
                     const SizedBox(width: 40),
-                    // 📚 우측 문법 정리
                     Expanded(
                       flex: 2,
                       child: SingleChildScrollView(
@@ -156,7 +154,6 @@ class EnglishTabScreen extends StatelessWidget {
   }
 }
 
-// 🔤 문법 섹션 위젯
 class GrammarSection extends StatelessWidget {
   final String title;
   final String description;

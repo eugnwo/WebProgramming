@@ -22,7 +22,6 @@ class KoreanHistoryTabScreen extends StatelessWidget {
                 child: Row(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    // 🖼️ 좌측 이미지
                     Expanded(
                       flex: 1,
                       child: ClipRRect(
@@ -34,7 +33,6 @@ class KoreanHistoryTabScreen extends StatelessWidget {
                       ),
                     ),
                     const SizedBox(width: 40),
-                    // 📚 우측 한국사 정리
                     Expanded(
                       flex: 2,
                       child: SingleChildScrollView(
@@ -83,7 +81,6 @@ class KoreanHistoryTabScreen extends StatelessWidget {
   }
 }
 
-// 📜 한국사 섹션 위젯
 class KoreanHistorySection extends StatelessWidget {
   final String title;
   final String description;

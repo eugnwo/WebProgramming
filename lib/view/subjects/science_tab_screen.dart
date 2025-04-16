@@ -22,7 +22,6 @@ class ScienceTabScreen extends StatelessWidget {
                 child: Row(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    // 🖼️ 좌측 이미지
                     Expanded(
                       flex: 1,
                       child: ClipRRect(
@@ -34,7 +33,6 @@ class ScienceTabScreen extends StatelessWidget {
                       ),
                     ),
                     const SizedBox(width: 40),
-                    // 📚 우측 과학 정리
                     Expanded(
                       flex: 2,
                       child: SingleChildScrollView(
@@ -83,7 +81,6 @@ class ScienceTabScreen extends StatelessWidget {
   }
 }
 
-// 🔬 과학 섹션 위젯
 class ScienceSection extends StatelessWidget {
   final String title;
   final String description;
